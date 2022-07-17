@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Section3 = ({ styles }) => {
   const [ele4, setEle4] = useState(false);
@@ -41,12 +41,12 @@ const Section3 = ({ styles }) => {
                 of the river will put you into a sound sleep cycle leading to
                 restorative benefits of the natural world.
               </p>
-              <Link
+              {/* <Link
                 className={css(styles.fadeInUp) + " link"}
                 to={`/${"restoration"}`}
               >
                 More Images <i className="fas fa-long-arrow-alt-right"></i>
-              </Link>
+              </Link> */}
             </>
           )}
         </div>

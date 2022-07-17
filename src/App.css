@@ -71,6 +71,7 @@
 }
 
 .custom-header {
+  background-color: var(--balck-shade);
   background-image: url("./assets/images/headerImage.jpeg");
   min-height: 80vh;
   width: 100%;

@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Section1 = ({ styles }) => {
   const [ele2, setEle2] = useState(false);
@@ -42,12 +42,12 @@ const Section1 = ({ styles }) => {
                 the time slows down your body and mind to make space for
                 creativity and curiosity.
               </p>
-              <Link
+              {/* <Link
                 className={css(styles.fadeInUp) + " link"}
                 to={`/${"grounding"}`}
               >
                 More Images <i className="fas fa-long-arrow-alt-right"></i>
-              </Link>
+              </Link> */}
             </>
           )}
         </div>

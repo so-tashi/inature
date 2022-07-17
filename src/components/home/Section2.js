@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Section2 = ({ styles }) => {
   const [ele3, setEle3] = useState(false);
@@ -23,12 +23,12 @@ const Section2 = ({ styles }) => {
                 swaying Birch trees with a gentle breeze to the beautiful walk
                 on the rivers edge.
               </p>
-              <Link
+              {/* <Link
                 className={css(styles.fadeInUp) + " link"}
                 to={`/${"exploration"}`}
               >
                 More Images <i className="fas fa-long-arrow-alt-right"></i>
-              </Link>
+              </Link> */}
             </>
           )}
         </div>
