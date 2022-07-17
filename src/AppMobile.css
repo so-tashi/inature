@@ -54,4 +54,15 @@
   .about_us_content {
     width: 100%;
   }
+  .main_content_sub_section_heading .left h1,
+  .main_content_sub_section_1 .right h1,
+  .main_content_sub_section_2 .right h1,
+  .main_content_sub_section_3 .right h1 {
+    font-size: 2.5rem;
+  }
+  .main_content_sub_section_1 .right p,
+  .main_content_sub_section_2 .right p,
+  .main_content_sub_section_3 .right p {
+    font-size: 1.5rem;
+  }
 }
