@@ -1,6 +1,7 @@
 import React from "react";
 import Base from "../base/Base";
 import Navbar from "../components/Navbar";
+import HEADER from "../assets/images/aboutus_header.png";
 
 const AboutUs = () => {
   return (
@@ -10,7 +11,8 @@ const AboutUs = () => {
         <section className="about_us_content">
           <div className="about_us_content_images">
             <img
-              src={require("../assets/images/aboutus_header.png")}
+              loading="lazy"
+              src={HEADER}
               alt="right side is a river and left side is a night view"
             />
           </div>

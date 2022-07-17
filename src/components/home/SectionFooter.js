@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-
+import E4 from "../../assets/images/explore/4.jpeg";
 const SectionFooter = ({ styles }) => {
   const [ele5, setEle5] = useState(false);
 
@@ -21,8 +21,8 @@ const SectionFooter = ({ styles }) => {
           {ele5 && (
             <img
               className={css(styles.fadeInRight)}
-              src={require("../../assets/images/mainpage.jpeg")}
-              alt="River View"
+              src={E4}
+              alt="Night View"
             />
           )}
         </div>
@@ -40,8 +40,9 @@ const SectionFooter = ({ styles }) => {
           {ele5 && (
             <img
               className={css(styles.fadeInRight)}
-              src={require("../../assets/images/explore/4.jpeg")}
-              alt="River View"
+              src={E4}
+              alt="Night View"
+              loading="lazy"
             />
           )}
         </div>
