@@ -26,7 +26,7 @@ const Section3 = ({ styles }) => {
             {ele4 && (
               <img
                 className={css(styles.fadeInLeft)}
-                src={require("../../assets/images/sunset/13.jpeg")}
+                src={require("../../assets/images/sunset/11.jpeg")}
                 alt="Pond with house"
               />
             )}
