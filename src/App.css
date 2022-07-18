@@ -76,8 +76,8 @@
 
 .custom-header {
   background-color: var(--balck-shade);
-  background-image: url("./assets/images/headerImage.jpeg");
-  min-height: 80vh;
+  background-image: url("./assets/images/headerImage2.jpeg");
+  height: 100vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@
 .header_title_container {
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 100%;
 }
 .header_title {
   width: 40%;

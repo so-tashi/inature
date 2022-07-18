@@ -1,7 +1,7 @@
 import React from "react";
 import Base from "../base/Base";
 import Navbar from "../components/Navbar";
-import HEADER from "../assets/images/aboutus_header.png";
+import HEADER from "../assets/images/aboutus_header_2.jpeg";
 
 const AboutUs = () => {
   return (
