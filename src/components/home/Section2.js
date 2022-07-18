@@ -9,7 +9,7 @@ const Section2 = ({ styles }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 1800) setEle3(true);
+      if (window.pageYOffset > 1600) setEle3(true);
     });
   }, []);
   return (

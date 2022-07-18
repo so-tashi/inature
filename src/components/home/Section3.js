@@ -8,7 +8,7 @@ const Section3 = ({ styles }) => {
   const [ele4, setEle4] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 2400) setEle4(true);
+      if (window.pageYOffset > 2100) setEle4(true);
     });
   }, []);
   return (

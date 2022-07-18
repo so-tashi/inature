@@ -8,7 +8,7 @@ const Section1 = ({ styles }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 900) setEle2(true);
+      if (window.pageYOffset > 800) setEle2(true);
     });
   }, []);
   return (

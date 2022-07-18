@@ -3,10 +3,14 @@
 :root {
   --accent: #ff6a88;
   --font-shade: rgba(0, 0, 0, 0.5);
-  --color-1: #e0bbe4;
-  --color-2: #fec8d8;
-  --color-3: #ffdfd3;
-  --color-4: #afcbff;
+  /* e7ffff */
+  --color-1: #afd5f0;
+  /* 77dd77 ,c9f1c9*/
+  --color-2: #c9f1c9;
+  /* def376, */
+  --color-3: #def376;
+  /* d4fafa */
+  --color-4: #d4fafa;
   --color-about: #e7e4f1;
   --font-family: "Raleway", sans-serif;
   --balck-shade: #1a1915;
@@ -138,7 +142,7 @@
 }
 .main_content_sub_section_heading .right img {
   max-width: 80%;
-  max-height: 100%;
+  max-height: 75vh;
 }
 .main_content_sub_section_1 .right {
   padding: 1rem;
