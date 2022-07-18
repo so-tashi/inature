@@ -1,7 +1,7 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import R7 from "../../assets/images/on_the_rivers_edge/7.jpeg";
-import E1 from "../../assets/images/explore/1.jpeg";
+import T13 from "../../assets/images/trails/13.jpeg";
+// import E1 from "../../assets/images/explore/1.jpeg";
 // import { Link } from "react-router-dom";
 
 const Section2 = ({ styles }) => {
@@ -39,14 +39,14 @@ const Section2 = ({ styles }) => {
             {ele3 && (
               <img
                 className={css(styles.fadeInRight)}
-                src={R7}
+                src={T13}
                 alt="Nature"
                 loading="lazy"
               />
             )}
           </div>
 
-          <div className="image_2">
+          {/* <div className="image_2">
             {ele3 && (
               <img
                 className={css(styles.fadeInLeft)}
@@ -55,7 +55,7 @@ const Section2 = ({ styles }) => {
                 loading="lazy"
               />
             )}
-          </div>
+          </div> */}
         </div>
       </section>
     </section>

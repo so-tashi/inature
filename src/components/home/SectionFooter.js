@@ -6,7 +6,7 @@ const SectionFooter = ({ styles }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 3400) {
+      if (window.pageYOffset > 3000) {
         if (ele5 === false) {
           setEle5(true);
         }
