@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import T13 from "../../assets/images/trails/13.jpeg";
+import C8 from "../../assets/images/camping/8.jpeg";
 // import E1 from "../../assets/images/explore/1.jpeg";
 // import { Link } from "react-router-dom";
 
@@ -39,7 +39,7 @@ const Section2 = ({ styles }) => {
             {ele3 && (
               <img
                 className={css(styles.fadeInRight)}
-                src={T13}
+                src={C8}
                 alt="Nature"
                 loading="lazy"
               />
