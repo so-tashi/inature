@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import MAINPAGE from "../../assets/images/mainpage.jpeg";
+import S4 from "../../assets/images/sunrise/4.jpeg";
 
 const SectionHeader = ({ styles }) => {
   const [ele, setEle] = useState(false);
@@ -30,7 +30,7 @@ const SectionHeader = ({ styles }) => {
           {ele && (
             <img
               className={css(styles.fadeInRight)}
-              src={MAINPAGE}
+              src={S4}
               alt="River View"
               loading="lazy"
             />
