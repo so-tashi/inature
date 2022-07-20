@@ -19,14 +19,12 @@
   .main_content_sub_section_heading .right img {
     height: 50vh;
   }
-  .main_content_sub_section_1 .left .image_1,
-  .main_content_sub_section_1 .left .image_2 {
+  .main_content_sub_section_1 .left .image_1 {
     width: 100%;
     justify-content: center;
   }
 
-  .main_content_sub_section_2 .left .image_1,
-  .main_content_sub_section_2 .left .image_2 {
+  .main_content_sub_section_2 .left .image_1 {
     justify-content: center;
   }
 

@@ -1,7 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import C9 from "../../assets/images/camping/9.jpeg";
-import T9 from "../../assets/images/trails/9.jpeg";
+
 // import { Link } from "react-router-dom";
 
 const Section1 = ({ styles }) => {
@@ -9,7 +8,7 @@ const Section1 = ({ styles }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 900) setEle2(true);
+      if (window.pageYOffset > 800) setEle2(true);
     });
   }, []);
   return (
@@ -20,18 +19,8 @@ const Section1 = ({ styles }) => {
             {ele2 && (
               <img
                 className={css(styles.fadeInRight)}
-                src={C9}
+                src="https://res.cloudinary.com/purnesh/image/upload/v1658301119/11-min_plk4vf.jpg"
                 alt="Nature"
-                loading="lazy"
-              />
-            )}
-          </div>
-          <div className="image_2">
-            {ele2 && (
-              <img
-                className={css(styles.fadeInLeft)}
-                src={T9}
-                alt="Pond with house"
                 loading="lazy"
               />
             )}
