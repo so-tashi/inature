@@ -316,9 +316,10 @@
   display: flex;
   justify-content: center;
   padding: 1rem;
+  min-height: 85vh;
 }
 .appointment_form {
-  min-height: 78vh;
+  min-height: 80vh;
   width: 70%;
 }
 .about_us_section {

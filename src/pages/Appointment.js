@@ -8,7 +8,7 @@ const Appointment = () => {
       <Navbar />
       <section className="appointment_section">
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeX8pkAjZtW3_-zUPVsraI31K4BY5-dXnf9fSvlTFQx0Us4aw/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLScNCw5dH8hedXIAYBlYZOrqPgsxHO_Kr3Q1IXExBRldTT9dTQ/viewform?embedded=true"
           className="appointment_form"
           frameBorder="0"
           marginHeight="0"

@@ -15,7 +15,9 @@ const Footer = () => {
         </a> */}
       </div>
       <div className="footer_right">
-        {/* <a href="tel:000000000">Call Us:- 000000000</a> */}
+        <a href="mailto:inaturewanup@gmail.com">
+          Email Us:- inaturewanup@gmail.com
+        </a>
       </div>
     </section>
   );
