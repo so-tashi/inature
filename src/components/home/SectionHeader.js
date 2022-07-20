@@ -1,6 +1,5 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import S4 from "../../assets/images/sunrise/4.jpeg";
 
 const SectionHeader = ({ styles }) => {
   const [ele, setEle] = useState(false);
@@ -30,7 +29,7 @@ const SectionHeader = ({ styles }) => {
           {ele && (
             <img
               className={css(styles.fadeInRight)}
-              src={S4}
+              src="https://res.cloudinary.com/purnesh/image/upload/v1658301120/6-min_la1f5g.jpg"
               alt="River View"
               loading="lazy"
             />

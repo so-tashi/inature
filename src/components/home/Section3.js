@@ -1,7 +1,5 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import S1 from "../../assets/images/sunrise/1.jpeg";
-import SS11 from "../../assets/images/sunset/11.jpeg";
 // import { Link } from "react-router-dom";
 
 const Section3 = ({ styles }) => {
@@ -19,7 +17,7 @@ const Section3 = ({ styles }) => {
             {ele4 && (
               <img
                 className={css(styles.fadeInRight)}
-                src={S1}
+                src="https://res.cloudinary.com/purnesh/image/upload/v1658301119/1-min_zfa5gl.jpg"
                 alt="Nature"
                 loading="lazy"
               />
@@ -29,7 +27,7 @@ const Section3 = ({ styles }) => {
             {ele4 && (
               <img
                 className={css(styles.fadeInLeft)}
-                src={SS11}
+                src="https://res.cloudinary.com/purnesh/image/upload/v1658301126/11-min_1_xw6sym.jpg"
                 alt="Pond with house"
                 loading="lazy"
               />

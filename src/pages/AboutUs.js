@@ -1,7 +1,6 @@
 import React from "react";
 import Base from "../base/Base";
 import Navbar from "../components/Navbar";
-import HEADER from "../assets/images/aboutus_header_3.jpg";
 
 const AboutUs = () => {
   return (
@@ -12,7 +11,7 @@ const AboutUs = () => {
           <div className="about_us_content_images">
             <img
               loading="lazy"
-              src={HEADER}
+              src="https://res.cloudinary.com/purnesh/image/upload/v1658301118/aboutus_header_3-min_uocnta.jpg"
               alt="right side is a river and left side is a night view"
             />
           </div>

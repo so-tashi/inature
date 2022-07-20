@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import E11 from "../../assets/images/explore/11.jpeg";
+
 // import { Link } from "react-router-dom";
 
 const Section1 = ({ styles }) => {
@@ -19,7 +19,7 @@ const Section1 = ({ styles }) => {
             {ele2 && (
               <img
                 className={css(styles.fadeInRight)}
-                src={E11}
+                src="https://res.cloudinary.com/purnesh/image/upload/v1658301119/11-min_plk4vf.jpg"
                 alt="Nature"
                 loading="lazy"
               />
