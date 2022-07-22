@@ -1,7 +1,5 @@
 import React, { memo, useState, useEffect } from "react";
 import { css } from "aphrodite";
-import R7 from "../../assets/images/on_the_rivers_edge/7.jpeg";
-import E1 from "../../assets/images/explore/1.jpeg";
 // import { Link } from "react-router-dom";
 
 const Section2 = ({ styles }) => {
@@ -9,7 +7,7 @@ const Section2 = ({ styles }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 1800) setEle3(true);
+      if (window.pageYOffset > 1600) setEle3(true);
     });
   }, []);
   return (
@@ -39,7 +37,7 @@ const Section2 = ({ styles }) => {
             {ele3 && (
               <img
                 className={css(styles.fadeInRight)}
-                src={R7}
+                src="https://res.cloudinary.com/purnesh/image/upload/v1658301142/8-min_bhxkcg.jpg"
                 alt="Nature"
                 loading="lazy"
               />
