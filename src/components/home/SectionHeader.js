@@ -26,14 +26,26 @@ const SectionHeader = ({ styles }) => {
           )}
         </div>
         <div className="right">
-          {ele && (
-            <img
-              className={css(styles.fadeInRight)}
-              src="https://res.cloudinary.com/purnesh/image/upload/v1658301120/6-min_la1f5g.jpg"
-              alt="River View"
-              loading="lazy"
-            />
-          )}
+          <div className="right_image_1">
+            {ele && (
+              <img
+                className={css(styles.fadeInRight)}
+                src="https://res.cloudinary.com/purnesh/image/upload/v1658466458/WhatsApp_Image_2022-07-21_at_10.05.25_AM_ngrj4z.jpg"
+                alt="River View"
+                loading="lazy"
+              />
+            )}
+          </div>
+          <div className="right_image_2">
+            {ele && (
+              <img
+                className={css(styles.fadeInRight)}
+                src="https://res.cloudinary.com/purnesh/image/upload/v1658466459/WhatsApp_Image_2022-07-21_at_10.30.28_AM_av3ls8.jpg"
+                alt="River View"
+                loading="lazy"
+              />
+            )}
+          </div>
         </div>
       </section>
     </section>
@@ -41,3 +53,11 @@ const SectionHeader = ({ styles }) => {
 };
 
 export default memo(SectionHeader);
+// {ele && (
+//   <img
+//     className={css(styles.fadeInRight)}
+//     src="https://res.cloudinary.com/purnesh/image/upload/v1658301120/6-min_la1f5g.jpg"
+//     alt="River View"
+//     loading="lazy"
+//   />
+// )}

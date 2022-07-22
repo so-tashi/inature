@@ -139,9 +139,22 @@
   font-family: var(--font-family);
 }
 .main_content_sub_section_heading .right {
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.main_content_sub_section_heading .right .right_image_1,
+.main_content_sub_section_heading .right .right_image_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  overflow: hidden;
+}
+.main_content_sub_section_heading .right .right_image_1 img,
+.main_content_sub_section_heading .right .right_image_2 img {
+  max-width: 90%;
 }
 .main_content_sub_section_heading .right img {
   max-width: 80%;
