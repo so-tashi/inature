@@ -24,16 +24,6 @@ const Section1 = ({ styles }) => {
               />
             )}
           </div>
-          <div className="image_2">
-            {ele2 && (
-              <img
-                className={css(styles.fadeInLeft)}
-                src={T9}
-                alt="Pond with house"
-                loading="lazy"
-              />
-            )}
-          </div>
         </div>
         <div className="right">
           {ele2 && (

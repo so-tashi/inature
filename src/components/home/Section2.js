@@ -43,17 +43,6 @@ const Section2 = ({ styles }) => {
               />
             )}
           </div>
-
-          <div className="image_2">
-            {ele3 && (
-              <img
-                className={css(styles.fadeInLeft)}
-                src={E1}
-                alt="Nature"
-                loading="lazy"
-              />
-            )}
-          </div>
         </div>
       </section>
     </section>
